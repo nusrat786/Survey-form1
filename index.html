@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+	<div class="container">
+		<h1>Application For Permission To Date My Daughter</h1>
+		<p><strong>Note:</strong>Form is to be completed at least 21 days prior to date</p>
+		<form class="main-form">
+			<fieldset>
+				<legend>Personal Details</legend>
+
+				<div id="name">
+					<label for="name" id="name">Name:</label>
+					<input type="text" name="name" placeholder="Enter name here">
+				</div>
+
+				<div id="address">
+				<label for="address" id="address">Address:</label>
+				<input type="text" name="address" placeholder="Enter address here">
+				</div>
+
+				<div id="email">
+				<label for="email" id="email">Email:</label>
+				<input type="email" name="email" placeholder="Enter email here">
+				</div>
+
+				<div id="phone">
+				<label for="phone" id="phone">Phone Number:</label>
+				<input type="number" name="phone" placeholder="Enter 10 digit number">
+				</div>
+
+				<div id="IQ">
+				<label for="iq" id="iq">IQ:</label>
+				<input type="number" name="iq" placeholder="Enter IQ here">
+				</div>
+
+				<div id="gender">
+				<label for="gender" id="gender">Gender:</label><br>
+				<input type="radio" id="male" name="gender" value="male" checked>
+  					<label for="male">Male</label><br>
+  					<input type="radio" id="female" name="gender" value="female">
+ 					 <label for="female">Female</label><br>
+  					<input type="radio" id="other" name="gender" value="other">
+  					<label for="other">Other</label>
+				</div>
+
+				<div id="proposed-date">
+				<label for="date" id="date">Date of Proposed Outing:</label>
+				<input type="date" name="date" placeholder="mm/dd/yyyy">
+				</div>
+
+
+
+			</fieldset>
+			
+		</form>
+
+		<div class="check">
+		<label for="checkbox">Check All That Apply</label><br>
+
+		<input type="checkbox" name="check1" value="Tattoos">
+  		<label for="check1"> I have tattoos and/or piercings</label><br>
+  		<input type="checkbox" name="check2" value="age">
+  		<label for="check2"> I am more than 2 years older than my daughter</label><br>
+  		<input type="checkbox" name="check3" value="van">
+  		<label for="check3"> I own a panel van or V8 ute</label><br>
+  		<input type="checkbox" name="check4" value="work" checked>
+  		<label for="check4"> I work full-time</label><br>
+  		<input type="checkbox" name="check5" value="parents" checked>
+  		<label for="check5"> My parents are rich</label><br>
+ 		<input type="checkbox" name="check6" value="location" checked>
+  		<label for="check6"> Is the date at a well lit public location</label>
+		</div>
+
+
+		<div class="drop-downs">
+		<label for="politics">Political Persuasion:</label>
+		<select id="dropdowns">
+    	
+    		<option value="left">Left Wing</option>
+    		<option value="right">Right Wing</option>
+    		<option value="conserv">Conservative</option>
+    		<option value="nazi">Nazi</option>
+
+    	</select>
+
+    	<label for="education"> Education Level Completed:</label>
+		<select id="dropdowns2">
+    	
+    		<option value="university">University</option>
+    		<option value="college">College</option>
+    		<option value="school">High School</option>
+    		<option value="none">None</option>
+
+    	</select>
+  		</div>
+
+		
+  		<fieldset class="essay">
+  			<legend>Essay Section</legend>
+  			<p>In 50 words or more explain why you want to date my daughter</p>
+  			<textarea placeholder="Enter Text Here" rows="5" cols="50"></textarea>
+  			<p>Please upload contact details for 2 references</p>
+  			<textarea placeholder="Enter Text Here" rows="5" cols="50"></textarea>
+  			<p>Upload Police Clearance Certificate, Bank Statement and Medical </p>
+
+  			<label for="certificate">Certifiates here: </label>
+  			<button type="btn" class="btn">Attach Files</button>
+  		</fieldset>
+
+  		
+		<button type="btn" class="btn" id="send">Send Your Application</button>
+
+	</div>
+
+	
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+body{
+	margin-top: 20px;
+	font-family: 'Anaheim', sans-serif;
+}
+
+.main{
+	background:#ffffcc;
+	
+	border-radius: 5px;
+	padding-top: 20px;
+}
+
+.container{
+	background: #ffffff;
+	width: 800px;
+	
+	margin: 10px auto;
+	border: 1px solid #ebebe0;
+	border-radius: 15px;
+	text-align: center;
+}
+h1{
+	padding-top: 15px;
+}
+
+p{
+	font-size: 20px;
+}
+
+.main-form{
+	padding: 10px 20px;
+	text-align: left;
+	font-size: 20px;
+	
+
+}
+
+#name, #address, #email, #phone , #IQ, #proposed-date, #gender{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	
+}
+.check{
+	border: 1px solid #7a7a52;
+	margin: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Anaheim', sans-serif;
+
+}
+
+fieldset{
+	border: 1px solid #7a7a52;
+}
+
+.drop-downs{
+	border: 1px solid #7a7a52;
+	margin: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+.essay{
+	margin: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+ .btn{
+	background: red;
+	color: white;
+	border: none;
+	height: 30px;
+	font-size: 20px;
+}
+
+#send{
+	margin-bottom: 30px;
+}
+
